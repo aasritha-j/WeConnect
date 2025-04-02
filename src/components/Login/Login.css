@@ -1,0 +1,57 @@
+.loginapp{
+    background: linear-gradient(45deg,#23a6d5,#23d5ab, #ee7752, #e73c7e);
+    background-size: 100% 100%;
+}
+
+.login{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* font-weight: 600; */
+    font-size: 20px;
+    /* color: rgb(174, 103, 240); */
+}
+.lgicon{
+    text-align: center;
+    font-size: 90px;
+    color: blueviolet;
+}
+
+.lgnlastp{
+    font-size: 14px;
+}
+.btn{
+    height: 2rem;
+    padding:0 9rem;
+    border-radius: 1rem;
+    background: linear-gradient(-45deg,#9925ea,#338aff, #9925ea);
+    background-size: 400%;
+    color: #ffffff;
+    transition: background 0.8s;
+    font-size: 0.9rem;
+}
+.btn:hover{
+    background-position:185% 50% ;
+    color: #ffffff;
+}
+.errs{
+    margin: 0 ;
+    padding: 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+input{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+@media screen and (max-width:480px) {
+    .btn{
+        height: 2rem;
+        padding: 0 5rem;
+        border-radius: 1rem;
+        background: linear-gradient(-45deg,#74ead2, #9925ea,#9dade7);
+        background-size: 400%;
+        color: #ffffff;
+        transition: background 0.8s;
+        font-size: 0.9rem;
+    }
+}

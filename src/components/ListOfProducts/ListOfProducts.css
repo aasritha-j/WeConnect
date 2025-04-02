@@ -1,0 +1,15 @@
+.tabheader{
+    background-color: black;
+    color: #ffffff;
+    
+}
+.tabborder{
+    border-radius: 7px;
+}
+
+
+.listBody{
+    background-image: linear-gradient(-165deg, #c650c1,#4359ce);
+    height: 100%;
+    padding-bottom: 365px;
+}

@@ -1,0 +1,38 @@
+.addproduct{
+    background-image: linear-gradient(-45deg, #72b6e3,#9565b9);
+}
+.btn3{
+    height: 2rem;
+    padding:0 9rem;
+    border-radius: 1rem;
+    background: linear-gradient(-45deg,#74ead2, #9925ea,#9dade7);
+    background-size: 400%;
+    color: #ffffff;
+    transition: background 0.8s;
+    font-size: 0.9rem;
+}
+@media screen and (max-width:480px) {
+    .btn3{
+        height: 2rem;
+        padding: 0 5rem;
+        border-radius: 1rem;
+        background: linear-gradient(-45deg,#74ead2, #9925ea,#9dade7);
+        background-size: 400%;
+        color: #ffffff;
+        transition: background 0.8s;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:900px) {
+    .btn3{
+        height: 2rem;
+        padding: 0 5rem;
+        border-radius: 1rem;
+        background: linear-gradient(-45deg,#74ead2, #9925ea,#9dade7);
+        background-size: 400%;
+        color: #ffffff;
+        transition: background 0.8s;
+        font-size: 0.9rem;
+    }
+}
